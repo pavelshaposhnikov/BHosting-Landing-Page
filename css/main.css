@@ -1726,7 +1726,7 @@ a.scroll-up:hover {
 
     .nav.show {
         z-index: 1;
-        padding: 70px 0 0 70px;
+        padding: 70px 0 0 0;
         display: flex;
         top: 0;
         right: 0;
@@ -2030,6 +2030,10 @@ a.scroll-up:hover {
         margin-top: 0;
         width: 50%;
     }
+
+    .mobile-nav {
+        margin-right: 0;
+    }
 }
 
 @media (max-width: 417px) {
@@ -2048,6 +2052,19 @@ a.scroll-up:hover {
 
     .pricing__plan--second {
         margin-top: 20px;
+    }
+
+    .blog__item--button {
+        width: 90px;
+    }
+
+    .blog__icons--first {
+        width: 40px;
+    }
+
+    .blog__icons--second {
+        margin-right: 10px;
+        width: 25px;
     }
 
     .input {
@@ -2098,6 +2115,18 @@ a.scroll-up:hover {
 
     .fact__text {
         font-size: 19px;
+    }
+
+    .blog__item--button {
+        font-size: 9px;
+    }
+
+    .blog__item--button {
+        width: 60px;
+    }
+
+    .blog__icons--first p {
+        font-size: 10px;
     }
 
     details summary {

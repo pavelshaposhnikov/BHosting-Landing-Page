@@ -1893,6 +1893,13 @@ a.scroll-up:hover {
 }
 
 @media (max-width: 611px) {
+    .header {
+        min-height: 700px;
+    }
+
+    .header__inner {
+        margin-top: 100px;
+    }
 
     .builder__choise--item {
         margin: 10px;

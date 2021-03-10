@@ -254,6 +254,10 @@ ul, li {
     transition: all .3s linear;
 }
 
+.no-scroll {
+    overflow: hidden;
+}
+
 .header__inner {
     width: 732px;
     margin: 200px auto 0 auto;
